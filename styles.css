@@ -1,0 +1,52 @@
+body{
+    background-color: orange;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: darkblue;
+    width:100%;
+    height:100vh
+  }
+  h1, p{
+    text-align:center;
+    margin:2em auto;
+  }
+    form{
+      margin:0 auto;
+      max-width:650px;
+        min-width:500px;
+      width: 60vw;
+      color:black;
+    }
+    label{
+      display: block;
+      margin:1;
+    }
+    input, textarea, select{
+    margin:20px 0 0;
+    width:150%;
+      height:4em;
+      min-length: 4em;
+      max-length: 70%;
+      color:blue;
+      font-size:16px;
+    }
+    fieldset{
+      border:none;
+      padding:2em auoto;
+    }
+  h1{
+    color: blue;
+  }
+  p{
+    color:darkblue;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 2em auto;
+    height: 3em;
+    font-size: 25px;
+    background-color: lightblue;
+    border-color: black;
+    min-width: 300px;
+  }
